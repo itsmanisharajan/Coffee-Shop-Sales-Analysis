@@ -1,14 +1,50 @@
-# Coffee Shop Sales Analysis
+# Coffee Shop Sales Analysis Dashboard
 
-An interactive **Microsoft Excel dashboard** for analyzing coffee shop sales, footfall, orders, products, categories, store locations, weekdays, and hourly sales patterns.
+An interactive **Microsoft Excel dashboard** for analyzing coffee shop sales, transactions, footfall, orders, products, categories, store locations, weekdays, and hourly sales patterns.
+
+![Coffee Shop Sales Dashboard](screenshots/dashboard.png)
+
+---
+
+## Table of Contents
+
+- [Project Overview](#project-overview)
+- [Dataset](#dataset)
+- [Key Metrics](#key-metrics)
+- [Tools & Techniques](#tools--techniques)
+- [Dashboard Features](#dashboard-features)
+  - [KPI Summary](#1-kpi-summary)
+  - [Monthly Filtering](#2-monthly-filtering)
+  - [Weekday Filtering](#3-weekday-filtering)
+  - [Hourly Order Analysis](#4-hourly-order-analysis)
+  - [Product Category Analysis](#5-product-category-analysis)
+  - [Product Size Analysis](#6-product-size-analysis)
+  - [Store Location Analysis](#7-store-location-analysis)
+  - [Top Product Analysis](#8-top-product-analysis)
+  - [Weekday Order Analysis](#9-weekday-order-analysis)
+- [Key Analysis Areas](#key-analysis-areas)
+- [Excel Techniques Used](#excel-techniques-used)
+- [Business Questions Addressed](#business-questions-addressed)
+- [Project Structure](#project-structure)
+
+---
 
 ## Project Overview
 
-This project analyzes coffee shop transaction data from **January to June 2023** and transforms the raw transaction-level data into an interactive Excel dashboard.
+This project analyzes coffee shop transaction data from **January to June 2023** and transforms transaction-level data into an interactive Excel dashboard.
 
-The dataset contains **149,116 transaction records across 18 columns**, covering transaction details, store locations, products, categories, transaction quantities, prices, sales amounts, dates, days, and hours.
+The dataset contains **149,116 transaction records across 18 columns**, covering:
 
-The dashboard provides a consolidated view of key business metrics and allows users to explore sales performance through interactive slicers, Pivot Tables, charts, and KPI calculations.
+- Transaction details
+- Store locations
+- Products and categories
+- Transaction quantities
+- Unit prices and sales amounts
+- Dates and months
+- Days of the week
+- Transaction hours
+
+The dashboard provides a consolidated view of business performance using **Pivot Tables, Slicers, charts, and KPI calculations**.
 
 ---
 
@@ -68,9 +104,9 @@ The dashboard provides the following primary KPIs:
 
 ---
 
-## Dashboard Features
+# Dashboard Features
 
-### 1. KPI Summary
+## 1. KPI Summary
 
 The dashboard provides a high-level summary of coffee shop performance through four key metrics:
 
@@ -83,7 +119,7 @@ These KPIs provide a quick overview of overall business performance.
 
 ---
 
-### 2. Monthly Filtering
+## 2. Monthly Filtering
 
 A **Month Name slicer** allows users to filter the dashboard by individual months.
 
@@ -96,11 +132,11 @@ Available months:
 - May
 - June
 
-This enables users to analyze how sales and customer activity change over time.
+This enables users to analyze changes in sales and customer activity over time.
 
 ---
 
-### 3. Weekday Filtering
+## 3. Weekday Filtering
 
 A **Day Name slicer** allows users to analyze performance for individual days of the week:
 
@@ -116,25 +152,21 @@ This helps identify differences in customer activity throughout the week.
 
 ---
 
-### 4. Hourly Order Analysis
+## 4. Hourly Order Analysis
 
-The dashboard analyzes order quantity by hour.
-
-The hourly analysis helps identify:
+The dashboard analyzes order quantity by hour to identify:
 
 - Peak ordering periods
 - Lower-traffic periods
 - Changes in order volume throughout the day
 
-This can help understand when customer demand is highest and how order activity changes across operating hours.
+This helps understand when customer demand is highest.
 
 ---
 
-### 5. Product Category Analysis
+## 5. Product Category Analysis
 
-The dashboard includes a category-level distribution of orders.
-
-Categories analyzed include:
+The dashboard provides category-level analysis across:
 
 - Bakery
 - Branded
@@ -150,7 +182,7 @@ This provides visibility into the contribution of different product categories t
 
 ---
 
-### 6. Product Size Analysis
+## 6. Product Size Analysis
 
 Orders are analyzed by product size:
 
@@ -159,27 +191,27 @@ Orders are analyzed by product size:
 - Small
 - Not Defined
 
-The size distribution visualization shows how orders are distributed across different product sizes.
+The size distribution shows how orders are distributed across different product sizes.
 
 ---
 
-### 7. Store Location Analysis
+## 7. Store Location Analysis
 
-The dashboard compares sales and footfall across the three store locations:
+The dashboard compares sales and footfall across three store locations:
 
 - Astoria
 - Hell's Kitchen
 - Lower Manhattan
 
-This allows users to compare store-level performance and identify differences in customer activity and sales.
+This allows comparison of store-level performance and customer activity.
 
 ---
 
-### 8. Top Product Analysis
+## 8. Top Product Analysis
 
-The dashboard identifies the **top-performing products based on sales**.
+The dashboard identifies **top-performing products based on sales**.
 
-The visualization highlights products such as:
+Examples include:
 
 - Barista Espresso
 - Brewed Chai Tea
@@ -191,23 +223,13 @@ This helps identify products contributing significantly to overall sales.
 
 ---
 
-### 9. Weekday Order Analysis
+## 9. Weekday Order Analysis
 
-Orders are compared across all seven days of the week.
-
-This visualization helps identify:
+Orders are compared across all seven days of the week to identify:
 
 - Higher-order weekdays
 - Lower-order weekdays
-- Differences in customer activity throughout the week
-
----
-
-## Dashboard Preview
-
-![Coffee Shop Sales Dashboard](screenshots/dashboard.png)
-
-The dashboard combines KPI cards, slicers, line charts, bar charts, and distribution charts into a single interactive reporting interface.
+- Differences in customer activity
 
 ---
 
@@ -254,12 +276,14 @@ This allows users to dynamically change the dashboard view.
 
 ### Charts
 
-Multiple chart types are used to communicate different aspects of the data, including:
+The dashboard uses multiple chart types, including:
 
 - Line charts
 - Column charts
 - Bar charts
 - Pie charts
+
+These visualizations make trends and comparisons easier to interpret.
 
 ### KPI Calculations
 
