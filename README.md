@@ -4,6 +4,7 @@ An interactive **Microsoft Excel dashboard** for analyzing coffee shop sales, tr
 
 ![Coffee Shop Sales Dashboard](screenshots/dashboard.png)
 
+[Coffee_Shop_Sales_Dashboard.xlsx](https://1drv.ms/x/c/bcd5e73c2c14aa2b/IQBtvxQ7MQunTqUYulcdNMDAAXquDZ_fw43pcrjpQyuZy2s?e=vwaiay)
 ---
 
 ## Table of Contents
